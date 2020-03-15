@@ -1,52 +1,124 @@
-header {background-color: #F15B31;
-		color: #FFFFFF;
-		padding: 30px 20px 30px 20px;
+/* =============================
+GENERAL STYLES 
+================================ */
+body {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
 }
 
-nav {background-color: #00A6B3;
-	color: #FFFFFF;
-	padding: 20px 0 20px 0;
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
 
-a {text-decoration: none;
-font-family: 'Raleway', sans-serif;
-color:#FFFFFF;
-letter-spacing: 1px;
-font-weight:600;
-font-size: 18px;
-text-transform: uppercase;
-padding: 0 20px 0 20px;
+/* =============================
+TYPOGRAPHY
+================================ */
+h1, h2 {
+  text-transform: uppercase;
 }
 
-body {text-align: center;}
+h1 {
+  color: white;
+  font-size: 45px;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
 
-h1 {font-family: 'Raleway', sans-serif;
-color:#0D2C40;
-letter-spacing: 1px;
-font-weight: 400
-font-size:45px;
-text-transform: uppercase;
-margin: 0;
+h2 {
+  color: #0D2C40;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+p {
+  font-family: "Droid Serif", serif;
+  line-height: 26px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .06em;
+
+  margin: 0 20px;
+  /* For hover style transition (bonus) */
+  border-bottom: 2px solid transparent;
+/*   transition: all .3s ease-in-out; */
+}
+
+a:hover {
+  border-bottom: 2px solid white;
+}
+/* =============================
+HEADER
+================================ */
+header {
+  background-color: #F15B31;
+  padding: 30px 20px;
+}
+
+/* =============================
+NAV
+================================ */
+nav {
+  background-color: #00A6B3;
+  padding: 20px 0;
+}
+
+/* =============================
+MAIN SECTION
+================================ */
+
+main {
+  width: 850px;
+  margin: 35px auto;
+}
+
+
+/* =============================
+GAME BOARD
+================================ */
+img {
+  margin: 40px 8px 0;
+}
+
+/* =============================
+FOOTER
+================================ */
+footer {
+  text-transform: uppercase;
+  padding: 0 20px;
+  background-color: #0D2C40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
 
 }
 
-h2 {font-family: 'Raleway', sans-serif;
-color:#0D2c40;
-letter-spacing: 1px;
-font-weight:600;
-font-size:20px;
-text-transform: uppercase;
-
+.copyright {
+  float: left;
+  font-family: "Raleway", sans-serif;
 }
 
-p {font-family: "open sans", serif;
-line-height: 26px;
-font-size:10px;
-
+.message {
+  float: right;
+  font-family: "Raleway", sans-serif;
 }
 
-main {	width: 850px;
-		margin: 35px auto 35px auto;
-	}
-
-img {margin: 40px 8px 0 8px;}
+.name {
+  color: #F15B31;
+  font-weight: bold;
+}
