@@ -55,7 +55,7 @@ function createBoard() {
   const cardTable = document.getElementById("game-board");
   for (var i = 0; i < cards.length; i++) {
     var cardElement = document.createElement("img");
-    cardElement.setAttribute("src", "../public/images/back.png");
+    cardElement.setAttribute("src", "memory_game/images/back.png");
     cardElement.setAttribute("data-id", i);
     cardElement.addEventListener("click", flipCard);
     cardTable.appendChild(cardElement);
