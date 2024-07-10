@@ -2,7 +2,7 @@
 
 ## Intention
 
-This was part of my pre course material design to get my familiar with programming languages such as:
+This was part of my pre course material designed to get my familiar with programming languages such as:
 
 - HTML
 - CSS
@@ -14,11 +14,11 @@ The game is simply to match 2 cards and show a prompt.
 
 ## Code
 
-The way the code is designed is to use **HTML** to create a basic layout and have and element of `game-board` for `main.js` to target.
+The way the code is designed is to use **HTML** to create a basic layout and have **Javascript** target the **HTML** to handle creating elements and game-play logic.
 
-In `main.js` a function creates elements based off the data stored in an object. This utilizes one `back.png` for all images.
+In `main.js` a function creates elements based off the data stored in an object. This utilizes one `back.png` for all cards.
 
-There is a flip functions which looks at data stored in the element to determine which image to show.
+There is a flip functions which looks at data stored in the element to determine which image to show and to see if there is a match.
 
 ## Problems
 
