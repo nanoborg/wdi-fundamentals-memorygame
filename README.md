@@ -24,4 +24,21 @@ There is a flip functions which looks at data stored in the element to determine
 
 The only problem I was facing was with deployment to github, specifically with the **images**.
 
-I had to make sure the src path to the images was relative to the `index.html` file and not that `main.js` file where the code to create the `img` tag exists.
+I had to make sure the src path to the images was relative to the `index.html` file and not the `main.js` file where the code to create the `img` tag exists.
+
+for instance, the file structure is like this below:
+
+```
+repo_root/
+│
+├── js/
+│   └── main.js
+├── images/
+│   └── filename.png
+├── css/
+│   └── styles.css
+├── index.html
+
+```
+
+I thought the image src within `main.js` would be `../images/filename.png`, where in fact the image src needs to be relative to the `index.html` file, `./images/filename`.
