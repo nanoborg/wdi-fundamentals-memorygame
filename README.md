@@ -1,5 +1,7 @@
 # wdi-fundamentals-memorygame
 
+### Try here 👉 [Memory Game](https://nanoborg.github.io/wdi-fundamentals-memorygame/)
+
 ## Intention
 
 This was part of my pre course material designed to get my familiar with programming languages such as:
