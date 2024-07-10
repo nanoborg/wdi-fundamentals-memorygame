@@ -22,6 +22,6 @@ There is a flip functions which looks at data stored in the element to determine
 
 ## Problems
 
-One of the only problems I was facing was with deployment to github, specifically with the **images**.
+The only problem I was facing was with deployment to github, specifically with the **images**.
 
 I had to make sure the src path to the images was relative to the `index.html` file and not that `main.js` file where the code to create the `img` tag exists.
