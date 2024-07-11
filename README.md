@@ -22,6 +22,14 @@ In `main.js` a function creates elements based off the data stored in an object.
 
 There is a flip functions which looks at data stored in the element to determine which image to show and to see if there is a match.
 
+## Extended Features
+
+- implemented a guard clause to stop the program from thinking there is match if you click the same card.
+
+- implemented board reset after a game is won or lost, also adjusted the confirm dialogue to show after the card images have been updated.
+
+- adjusted the formatting so that the footer sits on the bottom of the page.
+
 ## Problems
 
 The only problem I was facing was with deployment to github, specifically with the **images**.
