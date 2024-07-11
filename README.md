@@ -4,7 +4,7 @@
 
 ## Intention
 
-This was part of my pre course material designed to get my familiar with programming languages such as:
+This was part of my pre course material designed to get me familiar with programming languages such as:
 
 - HTML
 - CSS
