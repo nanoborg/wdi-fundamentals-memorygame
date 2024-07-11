@@ -1,23 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  /* flex 1 ensures that remaining space is taken up */
+  flex: 1;
+}
+
 header {
-  background-color: #F15B31;
+  background-color: #f15b31;
   padding: 30px 20px;
   margin: 0 auto;
   text-transform: uppercase;
   color: white;
-
 }
 
 nav {
-background-color: #00A6B3;
-padding: 20px 0;
-border-bottom: 2px solid transparent;
-text-transform: uppercase;
-color: white;
+  background-color: #00a6b3;
+  padding: 20px 0;
+  border-bottom: 2px solid transparent;
+  text-transform: uppercase;
+  color: white;
 }
 
-
 a {
-text-decoration: none;
+  text-decoration: none;
   font-family: raleway;
   margin: 0 20px;
   text-transform: uppercase;
@@ -26,22 +47,9 @@ text-decoration: none;
 }
 
 a:hover {
-  background-color: #F15B31;
+  background-color: #f15b31;
   border-color: white;
   text-decoration: none;
-}
-
-Main {
-  width: 850px;
-  margin: 35px auto;
-  padding: 0 5%;
-}
-
-body {
-  text-align: center;
-  margin: 0;
-  height: 100vh
-
 }
 
 h1 {
@@ -49,25 +57,24 @@ h1 {
   color: white;
   letter-spacing: 1px;
   font-weight: 400;
-  font-size: 45px
+  font-size: 45px;
   margin: 0;
-
 }
 
 h2 {
+  margin-top: 1%;
   font-family: raleway;
-  color: #0D2C40;
+  color: #0d2c40;
   letter-spacing: 1px;
   font-weight: 600;
-  font-size: 20px
+  font-size: 20px;
 }
 
-h3 {
-  font-family: raleway;
-  color: #F15B31;
-  letter-spacing: 1px;
-  font-weight: 600;
-  font-size: 18px
+.instructions {
+  margin: 0 10%;
+  font-family: "droid serif";
+  line-height: 26px;
+  font-size: 18px;
 }
 
 p {
@@ -80,38 +87,28 @@ img {
   margin: 40px 8px;
 }
 
-
 footer {
-  background-color: #0D2C40;
+  background-color: #0d2c40;
   text-transform: uppercase;
   color: white;
   font-size: 14px;
   font-weight: 500;
   padding: 0 20px;
-  letter-spacing: .08em;
-}
-
-.copyright {
-  font-family: raleway;
-  float:left;
-}
-
-.message {
-  font-family: raleway;
+  letter-spacing: 0.08em;
   display: flex;
   justify-content: space-between;
 }
 
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
+.copyright {
+  font-family: raleway;
+  float: left;
+}
+
+.message {
+  font-family: raleway;
 }
 
 .name {
-  color: #F15B31;
+  color: #f15b31;
   font-weight: 700;
 }
