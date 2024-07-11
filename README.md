@@ -24,11 +24,11 @@ There is a flip functions which looks at data stored in the element to determine
 
 ## Extended Features
 
-- implemented a guard clause to stop the program from thinking there is match if you click the same card.
+- implemented a guard clause to stop the program from thinking there is match when you click the same card twice.
 
 - implemented board reset after a game is won or lost, also adjusted the confirm dialogue to show after the card images have been updated.
 
-- adjusted the formatting so that the footer sits on the bottom of the page.
+- adjusted the formatting so the footer sits on the bottom of the page.
 
 ## Problems
 
